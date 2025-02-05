@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    background-color: orange;
+    color: #fff;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 80vh;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.container h2 {
+    width: 400px;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: -60px;
+}
+
+.options {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -30px;
+}
+
+.options img {
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.options img:hover {
+    opacity: 0.6;
+    border: 2px solid gray;
+}
+
+.score {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -30px;
+}
+
+.score .you, .score .comp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.score .you span, .score .comp span {
+    font-size: 30px;
+    background-color: #191919;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+.score .you p, .score .comp p {
+    font-size: 25px;
+}
+
+.result {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.result h2 {
+    background-color: brown;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+
+.btn {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.disable {
+    display: none;
+}
